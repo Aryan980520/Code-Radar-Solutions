@@ -2,9 +2,9 @@
 
 
 int main() {
-    char string[30];
+    char string;
 
-    scanf("%s",string);
+    scanf("%s",&string);
     printf("You entered%s",string)
     
 }
