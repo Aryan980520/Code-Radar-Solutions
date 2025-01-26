@@ -5,7 +5,7 @@ int main() {
     int b;
     char c[100];
 
-    scanf("%97s",&a);
+    scanf("%99s",&a);
     scanf("%d",&b);
     scanf("%99s"&c);
 
