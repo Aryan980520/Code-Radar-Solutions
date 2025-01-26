@@ -3,7 +3,9 @@
 
 int main() {
     int a,b,c,sum;
-    scanf("%d%d%d",&a,&b,&c);
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",%c);
     sum = a + b + c;
     float avg;
     avg = sum/3;
