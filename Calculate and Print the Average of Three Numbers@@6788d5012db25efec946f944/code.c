@@ -9,6 +9,7 @@ int main() {
 
     int sum;
     sum = a + b + c;
+    
     float avg;
     avg = sum/3;
     printf("Average: %.2f",avg);
