@@ -2,10 +2,12 @@
 
 
 int main() {
-    int a,b,c,sum;
+    int a,b,c;
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",%c);
+
+    int sum;
     sum = a + b + c;
     float avg;
     avg = sum/3;
