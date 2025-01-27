@@ -5,9 +5,9 @@ int main() {
     int b;
     char c[100];
 
-    scanf("%99s",&a);
+    scanf("%s",&a);
     scanf("%d",&b);
-    scanf("%99s",&c);
+    scanf("%s",&c);
     print("Name: %s\n",a);
     print("Age: %d\n",b);
     printf("Hobby: %s",c);
