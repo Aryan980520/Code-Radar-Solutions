@@ -2,10 +2,10 @@
 
 
 int main() {
-    int a,b;
-    scanf("%d%d",&a,&a);
+    int r,a,b;
+    scanf("%d%d",&a,&b);
 
-    int r = a ^ b;
+    r = a ^ b;
     printf("%d",r);
     return 0;
 }
