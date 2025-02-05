@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int result,a,b;
+    int r,a,b;
     scanf("%d%d",&a,&b);
 
-    result = a|b;
+    r = a|b;
     printf("%d",a);
+
     return 0;
 }
