@@ -6,5 +6,6 @@ int main() {
     scanf("%d%d",&a,&a);
 
     int r = a ^ b;
+    printf("%d",r);
     return 0;
 }
