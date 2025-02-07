@@ -29,8 +29,8 @@ int main() {
         case '8':
         case '9':
         printf("Digit");
-        break:
-        
+        break;
+
         default:
             printf("Consonant");
         }
