@@ -4,7 +4,7 @@ int main() {
     int a;
     scanf("%d",&a);
 
-    if (a=='a'){
+    if (a==a){
         printf("Vowel");
     }
     else if ( a=='e'){
