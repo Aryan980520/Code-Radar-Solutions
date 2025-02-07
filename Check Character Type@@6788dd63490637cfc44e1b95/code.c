@@ -5,22 +5,22 @@ int main() {
     int a;
     scanf("%d",&a);
 
-    if(a==a){
+    if(a=='a'){
         printf("Vowel");
     }
-    else if (a==e){
+    else if (a=='e'){
         printf("Vowel");
     }
-    else if (a==i){
+    else if (a=='i'){
         printf("Vowel");
     }
-    else if (a==o){
+    else if (a=='o'){
         printf("Vowel");
     }
-    else if (a==u){
+    else if (a=='u'){
         printf("Vowel");
     }
-    else if (a==5){
+    else if (a=='5'){
         printf("Digit");
     }
     else{
