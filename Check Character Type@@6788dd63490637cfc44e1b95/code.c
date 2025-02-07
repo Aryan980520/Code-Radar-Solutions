@@ -25,8 +25,7 @@ int main() {
     }
     else if (a==@){
         printf("Special Character");
-    }
-    
+    }    
     return 0;
 }
 
