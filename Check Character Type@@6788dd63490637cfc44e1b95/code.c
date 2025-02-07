@@ -4,10 +4,21 @@ int main() {
     int a;
     scanf("%d",&a);
 
-    if (a==a || a==e || a==i || a==o || a==u){
+    if (a==a){
         printf("Vowel");
     }
-
+    else if ( a==e){
+        printf("Vowel");
+    }
+    else if ( a==i ){
+        printf("Vowel");
+    }
+    else if ( a==o ){
+        printf("Vowel");
+    }
+    else if ( a==u){
+        printf("Vowel");
+    }
     else{
         printf("Consonant");
     }
