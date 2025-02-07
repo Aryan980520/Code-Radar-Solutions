@@ -1,26 +1,29 @@
 #include <stdio.h>
 
 int main() {
-    char a;
-    scanf("%c",&a);
 
-    if (a==a){
+    char a;
+    scanf("%d",&a);
+
+    switch(a){
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+        case 'A':
+        case 'E':
+        case 'I':
+        case 'O':
+        case 'U':
         printf("Vowel");
-    }
-    else if ( a=='e'){
-        printf("Vowel");
-    }
-    else if ( a=='i' ){
-        printf("Vowel");
-    }
-    else if ( a=='o' ){
-        printf("Vowel");
-    }
-    else if ( a=='u'){
-        printf("Vowel");
-    }
-    else{
-        printf("Consonant");
-    }
+        break
+
+        default:
+            printf("Consonant");
+        }
     return 0;
-}
+
+    }
+
+    
