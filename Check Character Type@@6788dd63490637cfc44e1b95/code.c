@@ -27,8 +27,7 @@ int main() {
         printf("Special Character");
     }
     
-return 0;
-
+    return 0;
 }
 
    
