@@ -23,10 +23,11 @@ int main() {
     else if (a==5){
         printf("Digit");
     }
-    else if (a==@){
+    else{
         printf("Special Character");
     }    
     return 0;
+
 }
 
    
