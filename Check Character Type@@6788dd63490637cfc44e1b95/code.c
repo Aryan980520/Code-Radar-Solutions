@@ -14,7 +14,7 @@ int main() {
     else if (a=='i'){
         printf("Vowel");
     }
-    else if (a=='o'){
+    else if (a=='O'){
         printf("Vowel");
     }
     else if (a=='u'){
