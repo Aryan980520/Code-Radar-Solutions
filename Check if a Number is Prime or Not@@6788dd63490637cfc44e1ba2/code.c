@@ -4,12 +4,12 @@ int main(){
     int a,r=0;
     scanf("%d",&a);
 
-    if(n<=1){
+    if(a<=1){
         r=1;
     }
     else{
-        for(int i=2;i<=n/2;i++){
-            if(n%i==0){
+        for(int i=2;i<=a/2;i++){
+            if(a%i==0){
                 r=1;
                 break;
             }
