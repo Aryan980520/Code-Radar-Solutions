@@ -5,7 +5,7 @@ int main() {
     int ch;
     scanf("%d",&ch);
 
-    switch (ch){
+    switch(a){
         case 'a':
         case 'e':
         case 'i':
@@ -18,7 +18,6 @@ int main() {
         case 'U':
         printf("Vowel");
         break;
-     
         case '1':
         case '2':
         case '3':
@@ -28,7 +27,7 @@ int main() {
         case '7':
         case '8':
         case '9':
-        printf("Digit");
+        printf("integer");
         break;
 
         case '@':
