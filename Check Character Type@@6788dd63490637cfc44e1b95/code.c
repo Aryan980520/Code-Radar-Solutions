@@ -5,26 +5,40 @@ int main() {
     int a;
     scanf("%d",&a);
 
-    if(a=='a'){
+    switch (a){
+        case a:
         printf("Vowel");
-    }
-    else if (a=='e'){
+        break;
+        case e:
         printf("Vowel");
-    }
-    else if (a=='i'){
+        break;
+        case i:
         printf("Vowel");
-    }
-    else if (a=='O'){
+        break;
+        case o:
         printf("Vowel");
-    }
-    else if (a=='u'){
+        break;
+        case u:
         printf("Vowel");
-    }
-    else if (a=='5'){
-        printf("Digit");
-    }
-    else{
-        printf("Special Character");
+        break;
+        case A:
+        printf("Vowel");
+        break;
+        case E:
+        printf("Vowel");
+        break;
+        case I:
+        printf("Vowel");
+        break;
+        case O:
+        printf("Vowel");
+        break;
+        case U:
+        printf("Vowel");
+        break;
+        default:
+        printf("Consonant");
+        break;
     }    
     return 0;
 
