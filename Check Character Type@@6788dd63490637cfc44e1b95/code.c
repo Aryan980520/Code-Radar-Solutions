@@ -2,10 +2,10 @@
 
 int main() {
 
-    int a;
-    scanf("%d",&a);
+    int ch;
+    scanf("%d",&ch);
 
-    switch (a){
+    switch (ch){
         case 'a':
         case 'e':
         case 'i':
